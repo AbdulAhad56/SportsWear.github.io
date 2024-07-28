@@ -545,16 +545,16 @@ input[type="checkbox"] {
   padding: 16px;
   justify-content: space-between;
 }
-.products .pro-card {
+.products .card {
   height: 327px;
   width: 240px;
   display: inline-block;
   padding: 10px;
 }
-.products .pro-card-in {
+.products .card-details {
   text-align: center;
 }
-.products .pro-card-in div {
+.products .card-details div {
   font-size: 15px;
   padding: 5px 0px;
   text-align: center;
@@ -562,17 +562,17 @@ input[type="checkbox"] {
   overflow: hidden;
   white-space: nowrap;
 }
-.products .pro-card-in a {
+.products .card-details a {
   text-decoration: none;
   color: #103178;
   font-size: 15px;
   font-weight: bold;
 }
-.products .pro-card-in img {
+.products .card-details img {
   width: 190px;
   height: 180px;
 }
-.products .pro-card-in .pro-but {
+.products .card-details .button {
   background-color: #ff9923;
   color: #ffffff;
   font-size: 17px;
@@ -582,7 +582,7 @@ input[type="checkbox"] {
   padding: 10px 27px;
   margin-top: 10px;
 }
-.products .pro-card-in .pro-but:hover {
+.products .card-details .button:hover {
   background-color: #ffffff;
   color: #ff9923;
   border: 1px solid black;
@@ -593,23 +593,23 @@ input[type="checkbox"] {
   .products .item {
     padding: 10px;
   }
-  .products .pro-card {
+  .products .card {
     height: 247px;
     width: 180px;
     padding: 5px;
   }
-  .products .pro-card-in div {
+  .products .card-details div {
     font-size: 14px;
     padding: 3px;
   }
-  .products .pro-card-in img {
+  .products .card-details img {
     width: 150px;
     height: 150px;
   }
-  .products .pro-card-in a {
+  .products .card-details a {
     font-size: 14px;
   }
-  .products .pro-card-in .pro-but {
+  .products .card-details .button {
     font-size: 12px;
     border-radius: 15px;
     padding: 5px 20px;
@@ -623,23 +623,23 @@ input[type="checkbox"] {
   .products .item {
     padding: 10px;
   }
-  .products .pro-card {
+  .products .card {
     height: 227px;
     width: 160px;
     padding: 5px;
   }
-  .products .pro-card-in div {
+  .products .card-details div {
     font-size: 12px;
     padding: 3px;
   }
-  .products .pro-card-in img {
+  .products .card-details img {
     width: 150px;
     height: 150px;
   }
-  .products .pro-card-in a {
+  .products .card-details a {
     font-size: 12px;
   }
-  .products .pro-card-in .pro-but {
+  .products .card-details .button {
     font-size: 11px;
     border-radius: 13px;
     padding: 5px 20px;
@@ -654,23 +654,23 @@ input[type="checkbox"] {
   .products .item {
     padding: 5px;
   }
-  .products .pro-card {
+  .products .card {
     height: 227px;
     width: 140px;
     padding: 5px;
   }
-  .products .pro-card-in div {
+  .products .card-details div {
     font-size: 12px;
     padding: 3px;
   }
-  .products .pro-card-in img {
+  .products .card-details img {
     width: 120px;
     height: 110px;
   }
-  .products .pro-card-in a {
+  .products .card-details a {
     font-size: 12px;
   }
-  .products .pro-card-in .pro-but {
+  .products .card-details .button {
     font-size: 11px;
     border-radius: 13px;
     padding: 5px 20px;
@@ -844,13 +844,13 @@ input[type="checkbox"] {
   margin: 80px 20px;
 }
 
-.cards {
+.service .cards {
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
 
-.card {
+.service .cards .card {
   display: flex;
   align-items: center;
   background-color: rgb(239, 239, 239);
@@ -861,12 +861,12 @@ input[type="checkbox"] {
   text-align: center;
 }
 
-.card i {
+.service .cards .card i {
   font-size: 24px;
   color: #103178;
 }
 
-.card span {
+.service .cards .card span {
   display: block;
   margin: 10px;
   font-size: 20px;
@@ -875,14 +875,14 @@ input[type="checkbox"] {
   .service {
     margin: 50px;
   }
-  .card {
+  .service .cards .card {
     margin: 5px;
     width: 230px;
   }
-  .card i {
+  .service .cards .card i {
     font-size: 17px;
   }
-  .card span {
+  .service .cards .card span {
     font-size: 15px;
   }
 }
@@ -890,15 +890,15 @@ input[type="checkbox"] {
   .service {
     margin: 30px;
   }
-  .card {
+  .service .cards .card {
     margin: 5px;
     width: 200px;
     height: 70px;
   }
-  .card i {
+  .service .cards .card i {
     font-size: 17px;
   }
-  .card span {
+  .service .cards .card span {
     font-size: 15px;
     margin: 5px;
   }
@@ -907,35 +907,35 @@ input[type="checkbox"] {
   .service {
     margin: 30px 10px;
   }
-  .card {
+  .service .cards .card {
     margin: 0px;
     width: 170px;
   }
-  .card span {
+  .service .cards .card span {
     font-size: 12px;
     margin: 2px;
     padding-left: 2px;
   }
-  .card i {
+  .service .cards .card i {
     font-size: 12;
   }
 }
 @media (max-width: 550px) {
-  .cards {
+  .service .cards {
     display: flex;
     justify-content: center;
   }
-  .card {
+  .service .cards .card {
     margin: 0px;
     padding-left: 7px;
     width: 110px;
   }
-  .card span {
+  .service .cards .card span {
     font-size: 12px;
     margin: 7px;
     padding-left: 2px;
   }
-  .card i {
+  .service .cards .card i {
     font-size: 12;
   }
 }
@@ -943,20 +943,20 @@ input[type="checkbox"] {
   .service {
     margin: 10px;
   }
-  .cards {
+  .service .cards {
     display: flex;
     flex-direction: column;
   }
-  .card {
+  .service .cards .card {
     margin: 10px;
     width: 280px;
     padding: 20px;
   }
-  .card span {
+  .service .cards .card span {
     font-size: 16px;
     padding-left: 15px;
   }
-  .card i {
+  .service .cards .card i {
     font-size: 28px;
   }
 }
