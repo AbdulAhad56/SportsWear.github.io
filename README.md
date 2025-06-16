@@ -56,4 +56,3 @@ Contact
 For any inquiries or support, please contact:
 
 Name: Abdul Ahad
-Email: ahad38390@gmail.com
