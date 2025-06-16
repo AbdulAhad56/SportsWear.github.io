@@ -1,58 +1,29 @@
-About
-This website aims to offer a wide range of sportswear products, including:
+# 🏋️ SportsWear Website
 
-Athletic shoes
-Sports clothing
-Accessories (e.g., caps, gloves, socks)
-Features of the website include:
+A sleek, fully responsive sports brand website designed to showcase athletic product collections with performance and user engagement in mind.
 
-User-friendly navigation
-Search functionality
-Product filtering
-Shopping cart
-Secure checkout process
+## 🚀 Live Demo
 
-Running the Website
-Running the Website
-To run or deploy the website locally using Visual Studio Code (VS Code), follow these steps:
+🔗 [Visit Website](https://abdulahad56.github.io/SportsWear.github.io/)
 
-Clone the Repository
+## 🛠️ Built With
 
-Open VS Code and open the integrated terminal (you can do this by pressing Ctrl+` ).
+- HTML5
+- CSS3
+- JavaScript
+- Bootstrap
+- jQuery
 
-Run the following command to clone the repository:
+## 📁 Project Structure
 
-bash
-Copy code
-git clone https://github.com/AbdulAhad56/SportsWear.github.io
-cd sports-wear-website
-Open the Project in VS Code
+All files are located in the root directory. This project is deployed using **GitHub Pages**.
 
-In VS Code, open the cloned project folder. You can do this by selecting File > Open Folder... and choosing the sports-wear-website folder.
+## 👨‍💻 Author
 
-Open the index.html File
+**Abdul Ahad**  
+🔗 [Portfolio Website](https://abdulahadportfolio.netlify.app/)  
+🔗 [GitHub Profile](https://github.com/AbdulAhad56)
 
-Locate the index.html file in the project directory and open it in VS Code.
+## 📄 License
 
-Run the Website
-
-To view the website locally, you can use the Live Server extension in VS Code:
-
-Install the Live Server extension from the Extensions view (Ctrl+Shift+X).
-Once installed, right-click on the index.html file and select Open with Live Server.
-This will open your default web browser and navigate to the local server URL (usually http://127.0.0.1:5500), where you can see the website running locally.
-
-Dependencies
-
-This project relies on the following:
-
-HTML
-CSS
-jQuery
-BootStrap
-Ensure you have a modern web browser installed to view and interact with the website properly.
-
-Contact
-For any inquiries or support, please contact:
-
-Name: Abdul Ahad
+This project is for educational and portfolio purposes only. Commercial use is not permitted.
